@@ -33,7 +33,7 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Arial", sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--text-color);
     background-color: var(--bg-color);
 }
@@ -126,6 +126,77 @@ select:-webkit-autofill:focus {
 .button:active {
     opacity: 0.6;
 }
+
+
+/* ivan petrychenko */
+
+.big-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.chapters {
+    border-right: 1px solid black;
+}
+
+.chapters__container {}
+
+.chapters__logo {
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.chapters__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chapters__item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.chapters__title {
+    display: flex;
+    align-items: center;
+}
+
+.chapters__link {
+    text-decoration: none;
+    color: rgb(15, 7, 7);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.chapters__icon {}
+
+
+/* .close {
+    display: none;
+} */
+
+.chapters__lessons__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chapters__lessons__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.chapters__lessons__link {
+    text-decoration: none;
+    color: rgb(64, 61, 61);
+    font-size: 20px;
+}
+
+.videos {}
+
+.videos__container {}
+
+.videos__title {}
 
 
 /* RETINA */
